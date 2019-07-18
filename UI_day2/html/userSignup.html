@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel='stylesheet' type='text/css' media='screen' href='css/userSignup.css'>
+    <title>Signup</title>
+</head>
+
+<body>
+    <div>
+        <form>
+            <div id="headingDiv"><span id="headingtxt">Email Registration Form</span>
+            </div>
+            <div id="part1">
+                <div id="loginDetails">
+                    <span>Email Account details: (* is Required)</span>
+                    <table>
+                        <tr>
+                            <td class="askInfo">Choose Your Login Name:*</td>
+                            <td><input type="text" name="loginName" id="loginName" placeholder="Choose Your Name"></td>
+                            <td>@Patni.com</td>
+                        </tr>
+                        <tr>
+                            <td class="askInfo">Choose Password:*</td>
+                            <td><input type="text" name="password" id="password"></td>
+                        </tr>
+                        <tr>
+                            <td class="askInfo">Confirm Password:*</td>
+                            <td><input type="text" name="cnfPassword" id="cnfPassword"></td>
+                        </tr>
+                    </table>
+
+                </div>
+                <div class="instruction" id="instruction_part1">
+                    <p>Your name should only contain alphavates(a-z), numbers(0-9) and symbol
+                        Password must be 6 digits for better secuirity</p>
+
+                </div>
+            </div>
+            <hr>
+
+
+            <div class="part2">
+                <div class="password_reminder_info">
+                    <span>Password Remindre information (All the fields are Required)</span>
+                    <table>
+                        <tr>
+                            <td class="askInfo">Hint Question1:</td>
+                            <td colspan="2"><input type="text" name="question" id="question"
+                                    placeholder="Choose Your Name">
+                            </td>
+
+                        </tr>
+                        <tr>
+                            <td class="askInfo">or, Create your own</td>
+                            <td><input type="text" name="customQuestion" id="customQuestion"></td>
+                        </tr>
+                        <tr>
+                            <td class="askInfo">Hint Answer</td>
+                            <td><input type="text" name="cnfPassword" id="cnfPassword"></td>
+                        </tr>
+                        <tr>
+                            <td>BirthDate:</td>
+                            <td colspan="2">dddddddddddddddd</td>
+
+                        </tr>
+                        <tr>
+                            <td class="askInfo">Country</td>
+                            <td colspan="2">
+                                <select name="country" id="country">
+                                    <option value="none" disabled selected>SELECT COUNTRY</option>
+                                    <option value="india">India</option>
+                                    <option value="srilanka">Sri Lanka</option>
+                                    <option value="usa">USA</option>
+                                    <option value="australia">Australia</option>
+                                    <option value="nepal">Nepal</option>
+                                </select>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="askInfo">City</td>
+                            <td colspan="2">
+                                <select name="city" id="city">
+                                    <option value="none" disabled selected>SELECT CITY</option>
+                                    <option value="Mumbai">Mumbai</option>
+
+                                </select>
+                            </td>
+
+                        </tr>
+                    </table>
+
+                </div>
+                <div class="instruction">
+                    <p>Choose your question wisely</p><br>
+
+
+                </div>
+            </div>
+            <hr>
+
+            <div id="part3">
+                <span>Tell us about yourself</span>
+                <div>
+                    <table>
+                        <tr>
+                            <td class="askInfo">First Name:</td>
+                            <td><input type="text" name="firstName" id="firstName"></td>
+                            <td>
+
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="askInfo">Last Name:</td>
+                            <td><input type="text" name="lastname" id="lastName"></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td class="askInfo">Gender:</td>
+                            <td colspan="2">
+                                <select name="gender" id="gender">
+                                    <option value="male">Male</option>
+                                    <option value="female">female</option>
+                                    <option value="gay">GAY</option>
+                                </select>
+                            </td>
+
+                        </tr>
+                        <tr>
+                            <td class="askInfo">Select state:</td>
+                            <td colspan="2">
+                                <select name="state" id="gender">
+                                    <option value="none" disabled selected>SELECT STATE</option>
+                                    <option value="male">Maharashtra</option>
+
+                                </select>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="askInfo">Pincode:</td>
+                            <td><input type="text" name="pincode" id="pincode"></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td class="askInfo">Education:</td>
+                            <td colspan="2">
+                                <select name="education" id="education">
+                                    <option value="none" disabled selected>SELECT EDUCATION</option>
+                                    <option value="graduate">Graduate</option>
+                                    <option value="undergraduate">Undergraduate</option>
+
+                                </select>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="askInfo">Alt Email Address:</td>
+                            <td><input type="email" name="altEmail" id="altEmail"></td>
+                            <td>optional</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+            <hr>
+            <div>
+                <span>Tell us your intereset</span>
+                <table>
+                    <tr>
+                        <td>
+                            <input type="checkbox" name="interest" value="entertainment"> Entertainment<br>
+                        </td>
+                        <td>
+                            <input type="checkbox" name="interest" value="education"> Education<br>
+                        </td>
+                        <td>
+                            <input type="checkbox" name="interest" value="career"> Career<br>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <input type="checkbox" name="interest" value="entertainment"> Shopping<br>
+                        </td>
+                        <td>
+                            <input type="checkbox" name="interest" value="banking"> Banking<br>
+                        </td>
+                        <td>
+
+                        </td>
+                    </tr>
+                </table>
+
+            </div>
+            <hr>
+
+            <button type="input">Register Me</button> <input type="reset" value="Reset">
+        </form>
+        <script src="js/userSignup.js"></script>
+    </div>
+</body>
+
+</html>

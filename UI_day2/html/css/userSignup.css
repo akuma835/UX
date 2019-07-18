@@ -1,0 +1,28 @@
+#headingDiv{
+    padding: 5px;
+    background-color: skyblue;
+
+
+
+}
+#headingtxt{
+    font-weight: bold;
+    color: black;
+
+}
+
+#loginDetails{
+width: 60%;
+    background-color: bisque;
+  
+}
+#instruction_part1{
+   width: 40%;
+   background-color: rebeccapurple
+
+}
+#part1{
+    width: 100%;
+    display: block;
+    float: right;
+}

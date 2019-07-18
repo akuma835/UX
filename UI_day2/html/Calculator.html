@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel='stylesheet' type='text/css' media='screen' href='css/calc.css'>
+
+    <title>Calculator</title>
+</head>
+
+<body>
+    <h3>Mini Calculator</h3>
+    <form action="" onload="outfocusnum()" id="calform">
+        <span>First Number</span><input type="number" id="number1" onkeyup="outfocusnum()" id="number1 " required><br>
+        <span>Second Number</span><input type="number" id="number2" onkeyup="outfocusnum()" id="number2" required><br>
+        <h4 id="resulttxt"></h4>
+        <button id="add" class="opnbtn" type="button" onclick="getresult(this)" value=1>Addition</button>
+        <button id="subtract" class="opnbtn" type="button" onclick="getresult(this)" value=2>Substraction</button>
+        <button id="multiply" class="opnbtn" type="button" onclick="getresult(this)" value=3>Multiplication</button>
+        <button id="divide" class="opnbtn" type="button" onclick="getresult(this)" value=4>Division</button>
+
+    </form>
+    <script src="js/calc.js"></script>
+</body>
+
+</html>
